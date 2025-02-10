@@ -11,7 +11,7 @@ load_dotenv()
 
 st.set_page_config(
     page_title="SiriusXM Delta Sharing App",
-    page_icon="imgs/small-logo-blue.png",
+    page_icon="imgs/sxm/small-logo-blue.png",
     initial_sidebar_state="expanded",
     layout="wide"
 )
@@ -22,7 +22,7 @@ st.set_page_config(
 st.sidebar.markdown("\n")
 # st.sidebar.image("imgs/logos/small-scale-lockup-full-color-rgb.png")
 # st.sidebar.image("imgs/logos/small-scale-lockup-full-color-white-rgb.png")
-st.sidebar.image("imgs/databricks/small-scale-lockup-one-color-black-rgb.png")
+st.sidebar.image("imgs/sxm/logo-black.png")
 # st.sidebar.image("imgs/logos/small-scale-lockup-one-color-white-rgb.png")
 
 st.sidebar.markdown("Placeholder text")
@@ -35,3 +35,11 @@ st.sidebar.markdown("# App Configuration")
 # st.sidebar.markdown("\n")
 # st.sidebar.markdown("\n")
 # st.sidebar.divider()
+
+st.markdown("# Placeholder title")
+st.markdown("## Placeholder subtitle")
+
+
+
+
+
