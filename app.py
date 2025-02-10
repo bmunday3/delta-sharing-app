@@ -1,12 +1,11 @@
-from typing import Optional
 import streamlit as st
-from PIL import Image
-from utils import make_grid, generate_image
+# from PIL import Image
+# from utils import make_grid, generate_image
 from dotenv import load_dotenv
 
 import os
-import numpy as np
-import pandas as pd
+# import numpy as np
+# import pandas as pd
 
 load_dotenv()
 
